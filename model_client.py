@@ -1,15 +1,32 @@
+import os
 from langchain_ollama import OllamaLLM
+import openai
+from dotenv import load_dotenv
 
 class ModelClient:
     def __init__(self):
+        load_dotenv()
+
         self.ollama = OllamaLLM(model="llama3.2")
+
+        self.openai_api_key = os.getenv("OPENAI_API_KEY")
+        openai.api_key = self.openai_api_key
+        self.chatgpt = openai.OpenAI()
 
     def ask_llama(self, prompt):
         response = self.ollama.invoke(prompt)
-        
         return response
     
+    def ask_chatgpt(self, prompt, model="gpt-4o-mini"):
+        response = self.chatgpt.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "user", "content": prompt},
+            ]
+        )
+        return response.choices[0].message
 
+    
 def get_prompt(paper_text):
     screening_prompt = f"""
     You are a research paper reviewer. Review the following paper text and determine if it meets all inclusion criteria.
