@@ -2,7 +2,6 @@ from langchain_ollama import OllamaLLM
 
 class ModelClient:
     def __init__(self):
-        # Initialize Anthropic (Claude)
         self.ollama = OllamaLLM(model="llama3.2")
 
     def ask_llama(self, prompt):
@@ -38,10 +37,14 @@ def get_prompt(paper_text):
     {paper_text}
 
     Provide your response in this format (with no other text at all please):
-        Paper Title: [extract from text],
+        Paper Title: [extract from text, usually after mention of Article and before author list],
         Decision: [Include/Exclude],
-        Reason(s): [list the reason from following list ordered from most to least important: Sample size too small, Not wearable devices, Wrong primary aim, Not data-driven fitting procedure, Wrong input data, Not human subjects, Not original research, Study not in English],
-        Note: [relevant quotes from paper supporting your reasoning]
+        Reason: [IF exclude: 
+                choose the reasons from following list ordered from most to least important 
+                -- Sample size too small, Not wearable devices, Wrong primary aim, 
+                Not data-driven fitting procedure, Wrong input data, Not human subjects, Not original research, Study not in English.
+                IF include: leave blank],
+        Note: [relevant quotes from paper supporting your exclusion reason. If no relevant quote just leave blank]
     """
 
     return screening_prompt
