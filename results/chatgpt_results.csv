@@ -1,0 +1,41 @@
+Paper Title,Decision,Reason,Note
+Telemonitoring of Daily Activity Using Accelerometer and Gyroscope in Smart Home Environments,Include,,
+A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway,Exclude,Not human subjects,"The dataset was then randomized and divided into a training set and a test set (ratio: 60%/40%)... However, this should not compromise the validity of the developed approaches, which are robust against patterns’ modifications, as also demonstrated by the analysis of the postural detection methodology against noisy data."
+Combating False Data Injection Attacks on Human-Centric Sensing Applications,Include,,
+SeizFt: Interpretable Machine Learning for Seizure Detection Using Wearables,Include,,
+Analysis of Data from Wearable Sensors for Sleep Quality Estimation and Prediction Using Deep Learning,Include,,
+Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study,Exclude,Sample size too small,The study group consisted of 41 STEMI patients and 49 control patients.
+Mental stress recognition on the fly using neuroplasticity spiking neural networks,Exclude,Sample size too small,The dataset used in this study consists of EEG recordings from 22 healthy participants.
+An Optimized Hardware Inference of SABiNN: Shift-Accumulate Binarized Neural Network for Sleep Apnea Detection,Include,,
+Ecological Momentary Assessments and Passive Sensing in the Prediction of Short-Term Suicidal Ideation in Young Adults,Include,,
+Classification of Sleep-Wake State in Ballistocardiogram system based on Deep Learning,Include,,
+Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD),Exclude,Not original research,This is the protocol for a cross-sectional study...
+Smartwatch Electrocardiograms for Automated and Manual Diagnosis of Atrial Fibrillation: A Comparative Analysis of Three Models,Include,,
+"An unbiased, efficient sleep–wake detection algorithm for a population with sleep disorders: change point decoder",Include,,
+Observational study protocol for an arrhythmia notification feature,Exclude,Not original research,This paper describes a study protocol but does not present original peer-reviewed research results.
+A CNN Model for Cardiac Arrhythmias Classiﬁcation Based on Individual ECG Signals,Include,,
+A machine learning approach to determine resilience utilizing wearable device data: analysis of an observational cohort,Include,,
+Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition,Exclude,Not human subjects,Clinical testing was conducted utilizing this sensor unit. Two phases of clinical testing procedures were done and during the first phase readings from 120 mothers were taken while during the second phase readings from 15 mothers were taken.
+Are Machine Learning Models on Wrist Accelerometry Robust against Differences in Physical Performance among Older Adults?,Include,,
+A new smart wristband equipped with an artiﬁcial intelligence algorithm to detect atrial ﬁbrillation,Include,,
+Development of artificial intelligence edge computing based wearable device for fall detection and prevention of elderly people,Include,,
+Hybrid Amplitude Ordinal Partition Networks for ECG Morphology Discrimination: An Application to PVC Recognition,Include,,
+Diabetes Detection From Heart Rate: Learning Joint Features of Heart Rate and Continuous Glucose Monitors Yields Better Representations,Include,,
+Exploratory Data Analysis of Human Activity Recognition Based on Smart Phone,Exclude,Not wearable devices,The HAR method based on the smart phone and EDA proposed in this paper is a high precision method.
+Discrimination of Simultaneous Psychological and Physical Stressors Using Wristband Biosignals,Include,,
+AccNet24: A deep learning framework for classifying 24-hour activity behaviours from wrist-worn accelerometer data under free-living environments,Include,,
+Ambulatory Smartwatch ECG Monitoring among Patients Undergoing Transcatheter Aortic Valve Replacement Early after Discharge: An Observational Study,Include,,
+Estimation of Gait Parameters in Huntington’s Disease Using Wearable Sensors in the Clinic and Free-living Conditions,Exclude,Sample size too small,Seventeen HD participants wore shank- and thigh-worn tri-axial accelerometers...
+Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free-living conditions,Exclude,Sample size too small,"The study aims to recruit 30 patients with T1DM, which is below the minimum required sample size of 100 subjects."
+Real-time detection of freezing of gait in Parkinson’s disease using multi-head convolutional neural networks and a single inertial sensor,Include,,
+A Teenager Physical Fitness Evaluation Model Based on 1D-CNN with LSTM and Wearable Running PPG Recordings,Include,,
+A Neural Network Estimation of Ankle Torques From Electromyography and Accelerometry,Exclude,Sample size too small,"Five subjects performed the experiment protocol, but due to sensor malfunction, only four subjects’ data were usable."
+Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate Monitoring,Include,,
+Detection and Characterization of Physical Activity and Psychological Stress from Wristband Data,Include,,
+Quantitative detection of sleep apnea in adults using inertial measurement unit embedded in wristwatch wearable devices,Include,,
+Deep learning with wearable based heart rate variability for prediction of mental and general health,Include,,
+Robust Feature Selection for BP Estimation in Multiple Populations: Towards Cufﬂess Ambulatory BP Monitoring,Include,,
+Artificial Intelligence-Based Atrial Fibrillation Recognition Method for Motion Artifact-Contaminated Electrocardiogram Signals Preprocessed by Adaptive Filtering Algorithm,Include,,
+An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson’s Disease,Include,,
+"Using Wearable Passive Sensing to Predict Engagement in Binge Eating in Response to Negative Affect: A Multimethod Investigation of Predictive Utility, Feasibility, and Acceptability",Exclude,Sample size too small,The study will recruit 30 individuals with clinically-significant binge eating...
+PCovNet+: A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection,Include,,

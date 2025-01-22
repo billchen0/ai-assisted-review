@@ -24,7 +24,7 @@ class ModelClient:
                 {"role": "user", "content": prompt},
             ]
         )
-        return response.choices[0].message
+        return response.choices[0].message.content
 
     
 def get_prompt(paper_text):
@@ -68,14 +68,16 @@ def get_prompt(paper_text):
             - DOIs or URLs
 
     Provide your response in this format (with no other text at all please):
-        Paper Title: [state the identified title],
-        Decision: [Include/Exclude],
-        Reason: [IF exclude: 
+        {{
+            "Paper Title": "[state the identified title]",
+            "Decision": "[Include/Exclude]",
+            "Reason": "[IF exclude: 
                 choose the reasons from following list ordered from most to least important 
                 -- Sample size too small, Not wearable devices, Wrong primary aim, 
                 Not data-driven fitting procedure, Wrong input data, Not human subjects, Not original research, Study not in English.
-                IF include: leave blank],
-        Note: [relevant quotes from paper supporting your exclusion reason. If no relevant quote just leave blank]
+                IF include: leave blank]",
+            "Note": "[relevant quotes from paper supporting your exclusion reason. If no relevant quote just leave blank]"
+        }}
     """
 
     return screening_prompt
