@@ -33,10 +33,12 @@ def get_prompt(paper_text):
         - Minimal external wiring
         - Excludes: stationary medical equipment, clinical-grade equipment, implants, handheld tools, transient measurement tools, invasive devices, AR/VR headsets
 
+    =====================================================================================
     Paper Text:
     {paper_text}
+    =====================================================================================
 
-    Extract the academic paper title from this text (Do not come up with your own title!). Look for these patterns:
+    First extract the academic paper title from this text (Do not come up with your own title!). Look for these patterns:
         1. The title usually appears before author names and affiliations
         2. It's often the largest or most prominent text on the first page
         3. It's followed by an abstract or introduction
