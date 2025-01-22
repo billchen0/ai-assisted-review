@@ -12,7 +12,6 @@ class ModelClient:
     
 
 def get_prompt(paper_text):
-    
     screening_prompt = f"""
     You are a research paper reviewer. Review the following paper text and determine if it meets all inclusion criteria.
 
@@ -38,10 +37,10 @@ def get_prompt(paper_text):
     Paper Text:
     {paper_text}
 
-    Provide your evaluation in this format (with no other text at all please):
+    Provide your response in this format (with no other text at all please):
         Paper Title: [extract from text],
         Decision: [Include/Exclude],
-        Reason(s): [list reasons in order of inclusion criteria if excluded],
+        Reason(s): [list the reason from following list ordered from most to least important: Sample size too small, Not wearable devices, Wrong primary aim, Not data-driven fitting procedure, Wrong input data, Not human subjects, Not original research, Study not in English],
         Note: [relevant quotes from paper supporting your reasoning]
     """
 
