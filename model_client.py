@@ -7,11 +7,13 @@ class ModelClient:
 
     def ask_llama(self, prompt):
         response = self.ollama.invoke(prompt)
+        
         return response
     
 
-def get_prompt():
-    screening_prompt = """
+def get_prompt(paper_text):
+    
+    screening_prompt = f"""
     You are a research paper reviewer. Review the following paper text and determine if it meets all inclusion criteria.
 
     Inclusion Criteria (ordered from most important to least important):
@@ -34,13 +36,13 @@ def get_prompt():
         - Excludes: stationary medical equipment, clinical-grade equipment, implants, handheld tools, transient measurement tools, invasive devices, AR/VR headsets
 
     Paper Text:
-        {paper_text}
+    {paper_text}
 
-    Provide your evaluation in this format:
-        {Paper Title: [extract from text],
-         Decision: [Include/Exclude],
-         Reason(s): [list reasons in order of inclusion criteria if excluded],
-         Note: [relevant quotes from paper supporting your reasoning]}
+    Provide your evaluation in this format (with no other text at all please):
+        Paper Title: [extract from text],
+        Decision: [Include/Exclude],
+        Reason(s): [list reasons in order of inclusion criteria if excluded],
+        Note: [relevant quotes from paper supporting your reasoning]
     """
 
     return screening_prompt
