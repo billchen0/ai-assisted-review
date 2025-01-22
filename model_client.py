@@ -36,8 +36,20 @@ def get_prompt(paper_text):
     Paper Text:
     {paper_text}
 
+    Extract the academic paper title from this text (Do not come up with your own title!). Look for these patterns:
+        1. The title usually appears before author names and affiliations
+        2. It's often the largest or most prominent text on the first page
+        3. It's followed by an abstract or introduction
+        4. It doesn't include:
+            - Journal names
+            - Conference names
+            - Page numbers
+            - Running headers
+            - Copyright notices
+            - DOIs or URLs
+
     Provide your response in this format (with no other text at all please):
-        Paper Title: [extract from text, usually after mention of Article and before author list],
+        Paper Title: [state the identified title],
         Decision: [Include/Exclude],
         Reason: [IF exclude: 
                 choose the reasons from following list ordered from most to least important 
