@@ -11,7 +11,7 @@ class ModelClient:
     
 
 def get_prompt():
-    """
+    screening_prompt = """
     You are a research paper reviewer. Review the following paper text and determine if it meets all inclusion criteria.
 
     Inclusion Criteria (ordered from most important to least important):
@@ -42,3 +42,5 @@ def get_prompt():
          Reason(s): [list reasons in order of inclusion criteria if excluded],
          Note: [relevant quotes from paper supporting your reasoning]}
     """
+
+    return screening_prompt
