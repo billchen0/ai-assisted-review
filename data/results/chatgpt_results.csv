@@ -1,4 +1,4 @@
-Paper Title,Decision,Reason,Note
+Title,Decision,Reason,Note
 Telemonitoring of Daily Activity Using Accelerometer and Gyroscope in Smart Home Environments,Include,,
 A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway,Exclude,Not human subjects,"The dataset was then randomized and divided into a training set and a test set (ratio: 60%/40%)... However, this should not compromise the validity of the developed approaches, which are robust against patterns’ modifications, as also demonstrated by the analysis of the postural detection methodology against noisy data."
 Combating False Data Injection Attacks on Human-Centric Sensing Applications,Include,,

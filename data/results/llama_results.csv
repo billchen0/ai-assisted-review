@@ -1,4 +1,4 @@
-Paper Title,Decision,Reason,Note
+Title,Decision,Reason,Note
 PCovNet+: A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection,Exclude,"Not original research, Wrong primary aim, Not wearable devices",
 An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson’s Disease,Exclude,"Not original research, Wrong primary aim",
 Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart  Diseases Using Wearable Electrocardiogram (ID-SHD,Exclude,"Not original research, Not human subjects study information available",
