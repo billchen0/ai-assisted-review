@@ -68,15 +68,22 @@ def get_prompt(paper_text):
     {paper_text}
     =====================================================================================
 
-    Provide your response in this format (with no other text at all please. This would be directly input into ast.literal_eval and converted to a Python dictionary):
+    Provide your response in this format and keep the following important formatting instructions:
+        - Do not have any other text in your response
+        - This should go directly into ast.literal_eval and become a Python dictionary without further processing
+        - Make sure the Key and Value are both wrapped in quotes and no out-of-place quotation marks are present
+        - If a Value field is blank, just have a blank quotation field e.g. ""
+        - Leave Reason and Note blank if the decision is to include
+        - Do not leave < and > in your response
+
         {{
-            "Decision": "[Include/Exclude]",
-            "Reason": "[
+            "Decision": "<Include/Exclude>",
+            "Reason": "<
                 IF include: leave blank
                 IF exclude: Choose the reason(s) from following list (ordered from most to least important): 
                 Sample size too small, Not wearable devices, Wrong primary aim, 
                 Not data-driven fitting procedure, Wrong input data, Not human subjects, Not original research, Study not in English.
-                ]",
+                >",
             "Note": "[relevant quotes from paper supporting your exclusion reason. If no relevant quote just leave blank]"
         }}
     """
