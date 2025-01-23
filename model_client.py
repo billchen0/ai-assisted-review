@@ -1,17 +1,24 @@
 import os
-from langchain_ollama import OllamaLLM
 import openai
+from langchain_ollama import OllamaLLM
+from anthropic import Anthropic
 from dotenv import load_dotenv
 
 class ModelClient:
     def __init__(self):
         load_dotenv()
 
+        # Ollama setup
         self.ollama = OllamaLLM(model="llama3.2")
 
+        # OpenAI setup
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         openai.api_key = self.openai_api_key
         self.chatgpt = openai.OpenAI()
+
+        # Anthropic setup
+        self.anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
+        self.anthropic_client = Anthropic(api_key=self.anthropic_api_key)
 
     def ask_llama(self, prompt):
         response = self.ollama.invoke(prompt)
@@ -20,11 +27,17 @@ class ModelClient:
     def ask_chatgpt(self, prompt, model="gpt-4o-mini"):
         response = self.chatgpt.chat.completions.create(
             model=model,
-            messages=[
-                {"role": "user", "content": prompt},
-            ]
+            messages=[{"role": "user", "content": prompt}]
         )
         return response.choices[0].message.content
+
+    def ask_claude(self, prompt, model="claude-3-5-haiku-20241022"):
+        response = self.anthropic_client.messages.create(
+            model=model,
+            max_tokens=4000,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return response.content[0].text
 
     
 def get_prompt(paper_text):
