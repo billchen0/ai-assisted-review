@@ -9,7 +9,7 @@ class ModelClient:
         load_dotenv()
 
         # Ollama setup
-        self.ollama = OllamaLLM(model="llama3.2")
+        self.ollama = OllamaLLM(model="llama3.3")
 
         # OpenAI setup
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
