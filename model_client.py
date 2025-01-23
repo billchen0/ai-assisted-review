@@ -9,7 +9,7 @@ class ModelClient:
         load_dotenv()
 
         # Ollama setup
-        self.ollama = OllamaLLM(model="llama3.3")
+        self.ollama = OllamaLLM(model="llama3.2")
 
         # OpenAI setup
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -68,27 +68,15 @@ def get_prompt(paper_text):
     {paper_text}
     =====================================================================================
 
-    First extract the academic paper title from this text (Do not come up with your own title!). Look for these patterns:
-        1. The title usually appears before author names and affiliations
-        2. It's often the largest or most prominent text on the first page
-        3. It's followed by an abstract or introduction
-        4. It doesn't include:
-            - Journal names
-            - Conference names
-            - Page numbers
-            - Running headers
-            - Copyright notices
-            - DOIs or URLs
-
-    Provide your response in this format (with no other text at all please):
+    Provide your response in this format (with no other text at all please. This would be directly input into ast.literal_eval and converted to a Python dictionary):
         {{
-            "Paper Title": "[state the identified title]",
             "Decision": "[Include/Exclude]",
-            "Reason": "[IF exclude: 
-                choose the reasons from following list ordered from most to least important 
-                -- Sample size too small, Not wearable devices, Wrong primary aim, 
+            "Reason": "[
+                IF include: leave blank
+                IF exclude: Choose the reason(s) from following list (ordered from most to least important): 
+                Sample size too small, Not wearable devices, Wrong primary aim, 
                 Not data-driven fitting procedure, Wrong input data, Not human subjects, Not original research, Study not in English.
-                IF include: leave blank]",
+                ]",
             "Note": "[relevant quotes from paper supporting your exclusion reason. If no relevant quote just leave blank]"
         }}
     """
