@@ -1,43 +1,43 @@
-Title,Decision,Exclude Reason,Notes
-PCovNet plus : A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection,Include,,
-Classification of Sleep-Wake State in Ballistocardiogram system based on Deep Learning,Include,,
-SeizFt: Interpretable Machine Learning for Seizure Detection Using Wearables,Include,,
-Development of artificial intelligence edge computing based wearable device for fall detection and prevention of elderly people,Include,,
-Analysis of Data from Wearable Sensors for Sleep Quality Estimation and Prediction Using Deep Learning,Include,,
-Are Machine Learning Models on Wrist Accelerometry Robust against Differences in Physical Performance among Older Adults?,Include,,
-Telemonitoring of Daily Activity Using Accelerometer and Gyroscope in Smart Home Environments,Include,,
-Real-time detection of freezing of gait in Parkinson's disease using multi-head convolutional neural networks and a single inertial sensor,Include,,
-"An unbiased, efficient sleep-wake detection algorithm for a population with sleep disorders: change point decoder",Include,,
-A new smart wristband equipped with an artificial intelligence algorithm to detect atrial fibrillation,Include,,
-An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson's Disease,Include,,
-Robust Feature Selection for BP Estimation in Multiple Populations: Towards Cuffless Ambulatory BP Monitoring,Include,,
-Deep learning with wearable based heart rate variability for prediction of mental and general health,Include,,
-Ecological Momentary Assessments and Passive Sensing in the Prediction of Short-Term Suicidal Ideation in Young Adults,Include,,
-Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition,Include,,
-AccNet24: A deep learning framework for classifying 24-hour activity behaviours from wrist-worn accelerometer data under free-living environments,Include,,
-A Teenager Physical Fitness Evaluation Model Based on 1D-CNN with LSTM and Wearable Running PPG Recordings,Include,,
-A machine learning approach to determine resilience utilizing wearable device data: analysis of an observational cohort,Include,,
-Quantitative detection of sleep apnea in adults using inertial measurement unit embedded in wristwatch wearable devices,Include,,
-Heart Rate and CGM Feature Representation Diabetes Detection From Heart Rate: Learning Joint Features of Heart Rate and Continuous Glucose Monitors Yields Better Representations,Include,,
-Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study,Excluded,Sample size too small,"full text mentions ""Thus, 41 patients with STEMI and 49 control patients formed the final study groups"" which makes up a sample size of 90 subjects < 100 - excluded"
-Detection and Characterization of Physical Activity and Psychological Stress from Wristband Data,Excluded,Sample size too small,"looking at the full text ""Data from 207 experiments involving 24 subjects were used to develop signal processing, feature extraction, and machine learning (ML) algorithms"" which is less than 100 - excluded "
-Mental stress recognition on the fly using neuroplasticity spiking neural networks,Excluded,Sample size too small,"full text mentions ""The dataset used in this study consists of EEG recordings from 22 healthy participants"""
-Hybrid Amplitude Ordinal Partition Networks for ECG Morphology Discrimination: An Application to PVC Recognition,Excluded,Not wearable devices,"looking at the full text this study uses the following databases, ""Massachusetts Institute of Technology-Beth Israel Hospital arrhythmia database (96587 beats), St. Petersburg Institute of Cardiological Technics database (156373 beats), and China Physiological Signal Challenge 2020 database (987209 beats)"", none of which are from wearable devices.  "
-Ambulatory Smartwatch ECG Monitoring among Patients Undergoing Transcatheter Aortic Valve Replacement Early after Discharge: An Observational Study,Excluded,Wrong primary aim,Primary aim is to measure diagnostic efficacy of smartwatches. Does not involve algorithm development. 
-Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate Monitoring,Excluded,Not human subjects,“Data Collection - Our DYnamic Spectrum Environment emulator uses one emulation board fit with a Monza R6 RFID tag for each channel emulated.“
-A CNN Model for Cardiac Arrhythmias Classification Based on Individual ECG Signals,Excluded,Not wearable devices,"""The ECG data used are from the Massachusetts
+id,Title,Decision,Exclude Reason,Notes
+0,PCovNet+: A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection,Include,,
+1,Classification of Sleep-Wake State in Ballistocardiogram system based on Deep Learning,Include,,
+2,SeizFt: Interpretable Machine Learning for Seizure Detection Using Wearables,Include,,
+3,Development of artificial intelligence edge computing based wearable device for fall detection and prevention of elderly people,Include,,
+4,Analysis of Data from Wearable Sensors for Sleep Quality Estimation and Prediction Using Deep Learning,Include,,
+5,Are Machine Learning Models on Wrist Accelerometry Robust against Differences in Physical Performance among Older Adults?,Include,,
+6,Telemonitoring of Daily Activity Using Accelerometer and Gyroscope in Smart Home Environments,Include,,
+7,Real-time detection of freezing of gait in Parkinson's disease using multi-head convolutional neural networks and a single inertial sensor,Include,,
+8,"An unbiased, efficient sleep-wake detection algorithm for a population with sleep disorders: change point decoder",Include,,
+9,A new smart wristband equipped with an artificial intelligence algorithm to detect atrial fibrillation,Include,,
+10,An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson's Disease,Include,,
+11,Robust Feature Selection for BP Estimation in Multiple Populations: Towards Cuffless Ambulatory BP Monitoring,Include,,
+12,Deep learning with wearable based heart rate variability for prediction of mental and general health,Include,,
+13,Ecological Momentary Assessments and Passive Sensing in the Prediction of Short-Term Suicidal Ideation in Young Adults,Include,,
+14,Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition,Include,,
+15,AccNet24: A deep learning framework for classifying 24-hour activity behaviours from wrist-worn accelerometer data under free-living environments,Include,,
+16,A Teenager Physical Fitness Evaluation Model Based on 1D-CNN with LSTM and Wearable Running PPG Recordings,Include,,
+17,A machine learning approach to determine resilience utilizing wearable device data: analysis of an observational cohort,Include,,
+18,Quantitative detection of sleep apnea in adults using inertial measurement unit embedded in wristwatch wearable devices,Include,,
+19,Heart Rate and CGM Feature Representation Diabetes Detection From Heart Rate: Learning Joint Features of Heart Rate and Continuous Glucose Monitors Yields Better Representations,Include,,
+20,Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study,Excluded,Sample size too small,"full text mentions ""Thus, 41 patients with STEMI and 49 control patients formed the final study groups"" which makes up a sample size of 90 subjects < 100 - excluded"
+21,Detection and Characterization of Physical Activity and Psychological Stress from Wristband Data,Excluded,Sample size too small,"looking at the full text ""Data from 207 experiments involving 24 subjects were used to develop signal processing, feature extraction, and machine learning (ML) algorithms"" which is less than 100 - excluded "
+22,Mental stress recognition on the fly using neuroplasticity spiking neural networks,Excluded,Sample size too small,"full text mentions ""The dataset used in this study consists of EEG recordings from 22 healthy participants"""
+23,Hybrid Amplitude Ordinal Partition Networks for ECG Morphology Discrimination: An Application to PVC Recognition,Excluded,Not wearable devices,"looking at the full text this study uses the following databases, ""Massachusetts Institute of Technology-Beth Israel Hospital arrhythmia database (96587 beats), St. Petersburg Institute of Cardiological Technics database (156373 beats), and China Physiological Signal Challenge 2020 database (987209 beats)"", none of which are from wearable devices.  "
+24,Ambulatory Smartwatch ECG Monitoring among Patients Undergoing Transcatheter Aortic Valve Replacement Early after Discharge: An Observational Study,Excluded,Wrong primary aim,Primary aim is to measure diagnostic efficacy of smartwatches. Does not involve algorithm development. 
+25,Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate Monitoring,Excluded,Not human subjects,“Data Collection - Our DYnamic Spectrum Environment emulator uses one emulation board fit with a Monza R6 RFID tag for each channel emulated.“
+26,A CNN Model for Cardiac Arrhythmias Classification Based on Individual ECG Signals,Excluded,Not wearable devices,"""The ECG data used are from the Massachusetts
 Institute of Technology-Beth Israel Hospital (MITBIH) arrhythmia database, where 48 ECG records
 from 47 subjects are consisted."" (n<100)"
-Combating False Data Injection Attacks on Human-Centric Sensing Applications,Excluded,Not wearable devices,Primary aim is to evaluate false data injection attacks on human-centric sensing applications.
-Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free-living conditions,Excluded,Not original research,"Protocol describing methodology, not original research. "
-An Optimized Hardware Inference of SABiNN: Shift-Accumulate Binarized Neural Network for Sleep Apnea Detection,Excluded,Not wearable devices,"looking at the full text the model was ""trained, validated, and tested with open-source apnea polysomnography (PSG) datasets collected from the PhysioNET databank"" which is not wearable - excluded "
-A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway,Excluded,Not human subjects,looking at the full text and figure 1a the data seems to be collected from a structure opposed to real people so not human subjects - excluded 
-Using Wearable Passive Sensing to Predict Binge Eating in Response to Negative Affect Among Individuals With Transdiagnostic Binge Eating: Protocol for an Observational Study,Excluded,Not original research,protocol - excluded
-Artificial Intelligence-Based Atrial Fibrillation Recognition Method for Motion Artifact-Contaminated Electrocardiogram Signals Preprocessed by Adaptive Filtering Algorithm,Excluded,Not wearable devices,"not wearable: ""In the experiment, (a) we extracted 771 AF recordings from the MIT-BIH Database "" & stretch sensor is not wearable"
-Smartwatch Electrocardiograms for Automated and Manual Diagnosis of Atrial Fibrillation: A Comparative Analysis of Three Models,Excluded,Wrong primary aim,
-Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD),Excluded,Not original research,
-Discrimination of simultaneous psychological and physical stressors using wristband biosignals,Excluded,Sample size too small,"full text mentions ""Thirty-four subjects participated in 166 clinical experiments"". This is less than 100 - excluded"
-Observational study protocol for an arrhythmia notification feature,Excluded,Not data-driven fitting procedure,
-Estimation of Gait Parameters in Huntington’s Disease using Wearable Sensors in the Clinic and Free-living Conditions,Excluded,Sample size too small,"""Seventeen individuals with HD (5 female) participated in the gait assessment in the clinic. Ten of these partici- pants (2 female), together with three additional participants (1 female) participated in the free-living study."" total 20 subjects"
-A Neural Network Estimation of Ankle Torques From Electromyography and Accelerometry,Excluded,Sample size too small,"""Five subjects performed the experiment protocol, but due to sensor malfunction, only four subjects’ data were usable"""
-Exploratory Data Analysis of Human Activity Recognition Based on Smart Phone,Excluded,Sample size too small,"“The data we used came from the University of Califor- nia, Irvine. The experiments were conducted by 30 people between the ages of 19 and 48.”"
+27,Combating False Data Injection Attacks on Human-Centric Sensing Applications,Excluded,Not wearable devices,Primary aim is to evaluate false data injection attacks on human-centric sensing applications.
+28,Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free-living conditions,Excluded,Not original research,"Protocol describing methodology, not original research. "
+29,An Optimized Hardware Inference of SABiNN: Shift-Accumulate Binarized Neural Network for Sleep Apnea Detection,Excluded,Not wearable devices,"looking at the full text the model was ""trained, validated, and tested with open-source apnea polysomnography (PSG) datasets collected from the PhysioNET databank"" which is not wearable - excluded "
+30,A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway,Excluded,Not human subjects,looking at the full text and figure 1a the data seems to be collected from a structure opposed to real people so not human subjects - excluded 
+31,Using Wearable Passive Sensing to Predict Binge Eating in Response to Negative Affect Among Individuals With Transdiagnostic Binge Eating: Protocol for an Observational Study,Excluded,Not original research,protocol - excluded
+32,Artificial Intelligence-Based Atrial Fibrillation Recognition Method for Motion Artifact-Contaminated Electrocardiogram Signals Preprocessed by Adaptive Filtering Algorithm,Excluded,Not wearable devices,"not wearable: ""In the experiment, (a) we extracted 771 AF recordings from the MIT-BIH Database "" & stretch sensor is not wearable"
+33,Smartwatch Electrocardiograms for Automated and Manual Diagnosis of Atrial Fibrillation: A Comparative Analysis of Three Models,Excluded,Wrong primary aim,
+34,Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD),Excluded,Not original research,
+35,Discrimination of simultaneous psychological and physical stressors using wristband biosignals,Excluded,Sample size too small,"full text mentions ""Thirty-four subjects participated in 166 clinical experiments"". This is less than 100 - excluded"
+36,Observational study protocol for an arrhythmia notification feature,Excluded,Not data-driven fitting procedure,
+37,Estimation of Gait Parameters in Huntington’s Disease using Wearable Sensors in the Clinic and Free-living Conditions,Excluded,Sample size too small,"""Seventeen individuals with HD (5 female) participated in the gait assessment in the clinic. Ten of these partici- pants (2 female), together with three additional participants (1 female) participated in the free-living study."" total 20 subjects"
+38,A Neural Network Estimation of Ankle Torques From Electromyography and Accelerometry,Excluded,Sample size too small,"""Five subjects performed the experiment protocol, but due to sensor malfunction, only four subjects’ data were usable"""
+39,Exploratory Data Analysis of Human Activity Recognition Based on Smart Phone,Excluded,Sample size too small,"“The data we used came from the University of Califor- nia, Irvine. The experiments were conducted by 30 people between the ages of 19 and 48.”"
