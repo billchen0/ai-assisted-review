@@ -1,88 +1,41 @@
-Title,Decision,Reason,Note
-Telemonitoring of Daily Activity Using Accelerometer and Gyroscope in Smart Home Environments,Include,,
-A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway,Include,,
-Combating False Data Injection Attacks on Human-Centric Sensing Applications,Include,,
-SeizFt: Interpretable Machine Learning for Seizure Detection Using Wearables,Include,,"The paper meets all inclusion criteria:
-1. Published in English ✓
-2. Original peer-reviewed research ✓ 
-3. Uses human subject data ✓
-4. Primary aim is proposing new seizure detection algorithm ✓
-5. Uses over 100 subjects ✓ (SeizeIT1 dataset with 82 patients, SeizeIT2 with 350+ patients)
-6. Uses wearable device data (SensorDot EEG) ✓
-7. Uses data-driven model fitting with validation on held-out set ✓
-
-The paper specifically focuses on seizure detection using a wearable behind-the-ear EEG device, which meets the wearable device definition. It proposes a novel machine learning framework (SeizFt) with interpretable features, data augmentation, and class balancing techniques."
-Analysis of Data from Wearable Sensors for Sleep Quality Estimation and Prediction Using Deep Learning,Include,,
-Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study,Include,,
-Mental stress recognition on the fly using neuroplasticity spiking neural networks,Exclude,Wrong input data,
-An Optimized Hardware Inference of SABiNN: Shift-Accumulate Binarized Neural Network for Sleep Apnea Detection,Include,,
-Ecological Momentary Assessments and Passive Sensing in the Prediction of Short-Term Suicidal Ideation in Young Adults,Include,,
-Classification of Sleep-Wake State in Ballistocardiogram system based on Deep Learning,Include,,"Justification breakdown:
-1. Published in English: ✓ Yes 
-2. Original peer-reviewed research: ✓ Yes (conference paper)
-3. Human subjects: ✓ Yes (600 total subjects: 115 in controlled, 350 in uncontrolled environments)
-4. Primary aim: ✓ Proposing new algorithm (Multi-Headed Deep Neural Network for sleep-wake classification)
-5. Sample size: ✓ 600 subjects (exceeds 100 subject requirement)
-6. Wearable device: ✓ Dozee (contactless BCG sensor placed under mattress meets wearable definition)
-7. Data-driven model with validation: ✓ Uses 1D CNN with multi-head network, validated on held-out sets
-8. Input data: ✓ Wearable device data (BCG sensor readings)
-
-The paper meets ALL inclusion criteria comprehensively and systematically."
-Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD),Include,,
-Smartwatch Electrocardiograms for Automated and Manual Diagnosis of Atrial Fibrillation: A Comparative Analysis of Three Models,Include,,
-"An unbiased, efficient sleep–wake detection algorithm for a population with sleep disorders: change point decoder",Include,,
-Observational study protocol for an arrhythmia notification feature,Exclude,Not original research,
-A CNN Model for Cardiac Arrhythmias Classiﬁcation Based on Individual ECG Signals,Include,,
-A machine learning approach to determine resilience utilizing wearable device data: analysis of an observational cohort,Include,,
-Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition,Include,,"Rationale for Inclusion:
-1. Published in English ✓
-2. Original peer-reviewed research (published in PLOS ONE) ✓
-3. Uses human subjects data (120 mothers in phase 1, 15 mothers in phase 2) ✓
-4. Primary aim: Proposing new algorithm for fetal movement detection ✓
-5. Sample size meets minimum 100 subjects requirement (135 total) ✓
-6. Uses wearable device (custom accelerometer belt) ✓
-7. Uses data-driven model fitting with validation on held-out set (CNN with train/test split) ✓
-
-The paper meets all inclusion criteria comprehensively."
-Are Machine Learning Models on Wrist Accelerometry Robust against Differences in Physical Performance among Older Adults?,Include,,
-A new smart wristband equipped with an artiﬁcial intelligence algorithm to detect atrial ﬁbrillation,Include,,
-Development of artificial intelligence edge computing based wearable device for fall detection and prevention of elderly people,Include,,
-Hybrid Amplitude Ordinal Partition Networks for ECG Morphology Discrimination: An Application to PVC Recognition,Include,,
-Heart Rate and CGM Feature Representation Diabetes Detection From Heart Rate: Learning Joint Features of Heart Rate and Continuous Glucose Monitors Yields Better Representations,Include,,
-Exploratory Data Analysis of Human Activity Recognition Based on Smart Phone,Exclude,Wrong input data,
-Discrimination of Simultaneous Psychological and Physical Stressors Using Wristband Biosignals,Include,,
-AccNet24: A deep learning framework for classifying 24-hour activity behaviours from wrist-worn accelerometer data under free-living environments,Include,,
-Ambulatory Smartwatch ECG Monitoring among Patients Undergoing Transcatheter Aortic Valve Replacement Early after Discharge: An Observational Study,Include,,
-Estimation of Gait Parameters in Huntington's Disease Using Wearable Sensors in the Clinic and Free-living Conditions,Include,,"Justification for inclusion:
-1. Published in English ✓
-2. Original peer-reviewed research ✓
-3. Uses human subject data ✓
-4. Primary aim is proposing/validating a new gait event detection algorithm ✓
-5. Subjects: 17 participants in clinic, 13 during free-living conditions (meets minimum 100 subjects) ✓
-6. Uses wearable device data (specifically accelerometers on wrist, shank, and thigh) ✓
-7. Uses data-driven model fitting with validation on held-out set ✓
-8. Meets wearable device definition (unobtrusive, worn on body, continuously records physiological data) ✓
-
-The paper fully satisfies all inclusion criteria."
-Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free-living conditions,Include,,
-Real-time detection of freezing of gait in Parkinson's disease using multi-head convolutional neural networks and a single inertial sensor,Include,,
-A Teenager Physical Fitness Evaluation Model Based on 1D-CNN with LSTM and Wearable Running PPG Recordings,Include,,
-A Neural Network Estimation of Ankle Torques From Electromyography and Accelerometry,Include,,
-Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate Monitoring,Exclude,Not wearable devices,
-Detection and Characterization of Physical Activity and Psychological Stress from Wristband Data,Include,,
-Quantitative detection of sleep apnea in adults using inertial measurement unit embedded in wristwatch wearable devices,Include,,
-Deep learning with wearable based heart rate variability for prediction of mental and general health,Include,,
-Robust Feature Selection for BP Estimation in Multiple Populations: Towards Cufﬂess Ambulatory BP Monitoring,Include,,
-Artificial Intelligence-Based Atrial Fibrillation Recognition Method for Motion Artifact-Contaminated Electrocardiogram Signals Preprocessed by Adaptive Filtering Algorithm,Include,,"My reasoning for inclusion:
-1. Published in English ✓
-2. Original peer-reviewed research ✓
-3. Uses human subjects data from PhysioNet Challenge 2017 dataset (738 AF patients) ✓
-4. Primary aim matches criteria - proposing/extending algorithm for AF recognition ✓
-5. Sample size exceeds 100 subjects ✓
-6. Uses data from wearable sensor (ECG device) ✓
-7. Uses data-driven model fitting with validation ✓
-
-While technically an ECG rather than a typical wrist/body wearable, the paper defines their device as unobtrusive and wearable for monitoring, meeting the wearable device definition. The analysis and experimental setup thoroughly demonstrate alignment with the inclusion criteria."
-An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson's Disease,Include,,
-"Using Wearable Passive Sensing to Predict Engagement in Binge Eating in Response to Negative Affect: A Multimethod Investigation of Predictive Utility, Feasibility, and Acceptability",Include,,
-PCovNet+: A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection,Include,,
+Decision,Reason,Note,Title
+Include,,,PCovNet+: A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection
+Exclude,Not original research,"This is a study protocol paper describing a planned observational study, not an original research paper with results. The text explicitly states it is a 'Protocol' for an arrhythmia notification feature study that will be conducted, not a completed research study with findings.",Observational study protocol for an arrhythmia notification feature
+Include,,,An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson’s Disease
+Include,,,A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway
+Include,,,Combating False Data Injection Attacks on Human-Centric Sensing Applications
+Include,,,AccNet24: A deep learning framework for classifying 24-hour activity behaviours from wrist-worn accelerometer data under free-living environments
+Include,,,A Teenager Physical Fitness Evaluation Model Based on 1D-CNN with LSTM and Wearable Running PPG Recordings
+Include,,,Quantitative detection of sleep apnea in adults using inertial measurement unit embedded in wristwatch wearable devices
+Include,,,Heart Rate and CGM Feature Representation Diabetes Detection From Heart Rate: Learning Joint Features of Heart Rate and Continuous Glucose Monitors Yields Better Representations
+Include,,,Hybrid Amplitude Ordinal Partition Networks for ECG Morphology Discrimination: An Application to PVC Recognition
+Include,,,Classification of Sleep-Wake State in Ballistocardiogram system based on Deep Learning
+Include,,,A Neural Network Estimation of Ankle Torques From Electromyography and Accelerometry
+Include,,,Are Machine Learning Models on Wrist Accelerometry Robust against Differences in Physical Performance among Older Adults?
+Include,,,"An unbiased, efficient sleep–wake detection algorithm for a population with sleep disorders: change point decoder"
+Include,,,Development of artificial intelligence edge computing based wearable device for fall detection and prevention of elderly people
+Include,,,"Using Wearable Passive Sensing to Predict Engagement in Binge Eating in Response to Negative Affect: A Multimethod Investigation of Predictive Utility, Feasibility, and Acceptability"
+Include,,,A CNN Model for Cardiac Arrhythmias Classification Based on Individual ECG Signals
+Include,,,SeizFt: Interpretable Machine Learning for Seizure Detection Using Wearables
+Include,,,Analysis of Data from Wearable Sensors for Sleep Quality Estimation and Prediction Using Deep Learning
+Include,,,Smartwatch Electrocardiograms for Automated and Manual Diagnosis of Atrial Fibrillation: A Comparative Analysis of Three Models
+Include,,,Artificial Intelligence-Based Atrial Fibrillation Recognition Method for Motion Artifact-Contaminated Electrocardiogram Signals Preprocessed by Adaptive Filtering Algorithm
+Include,,,An Optimized Hardware Inference of SABiNN: Shift-Accumulate Binarized Neural Network for Sleep Apnea Detection
+Include,,,Ambulatory Smartwatch ECG Monitoring among Patients Undergoing Transcatheter Aortic Valve Replacement Early after Discharge: An Observational Study
+Include,,,Ecological Momentary Assessments and Passive Sensing in the Prediction of Short-Term Suicidal Ideation in Young Adults
+Include,,,Detection and Characterization of Physical Activity and Psychological Stress from Wristband Data
+Include,,,A new smart wristband equipped with an artificial intelligence algorithm to detect atrial fibrillation
+Include,,,Deep learning with wearable based heart rate variability for prediction of mental and general health
+Include,,,Robust Feature Selection for BP Estimation in Multiple Populations: Towards Cuffless Ambulatory BP Monitoring
+Exclude,Not wearable devices,"The paper uses RFID tags and antennas which do not meet the wearable device definition. The device is specifically described as an RFID tag and antenna system, not a true wearable device. Quote: 'We construct a channel emulation board (Fig. 5) that allows us to emulate wireless channels in a wired and controlled setup without the need of reader and tag/sensor antennas.'",Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate Monitoring
+Exclude,Not original research,"This is a study protocol/research study design document, not an original research paper with results. The text explicitly states 'Study Protocol for the' and describes a planned future study, not reporting actual research findings.",Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD
+Exclude,Sample size too small,"The paper explicitly states they are targeting only 30 participants: 'A target of 30 participants will be enrolled, based on a pragmatic approach, which ensures sufficient data are available for analysis.'",Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free- living conditions
+Include,,,Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition
+Include,,,Real-time detection of freezing of gait in Parkinson’s disease using multi-head convolutional neural networks and a single inertial sensor
+Include,,,Estimation of Gait Parameters in Huntington’s Disease Using Wearable Sensors in the Clinic and Free-living Conditions
+Include,,,Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study
+Include,,,Discrimination of Simultaneous Psychological and Physical Stressors Using Wristband Biosignals
+Include,,,Mental stress recognition on the fly using neuroplasticity spiking neural networks
+Include,,,A machine learning approach to determine resilience utilizing wearable device data: analysis of an observational cohort
+Include,,,Exploratory Data Analysis of Human Activity Recognition Based on Smart Phone
+Include,,,Telemonitoring of Daily Activity Using Accelerometer and Gyroscope in Smart Home Environments
