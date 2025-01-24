@@ -1,7 +1,7 @@
 Decision,Reason,Note,Title
 Exclude,Sample size too small,"The framework was validated on a dataset of 68 COVID-19-infected subjects, which does not meet the minimum requirement of 100 subjects.",PCovNet+: A CNN-VAE anomaly detection framework with LSTM embeddings for smartwatch-based COVID-19 detection
 Exclude,Not original research,This paper describes a study protocol rather than presenting original research findings.,Observational study protocol for an arrhythmia notification feature
-Include,,,An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson’s Disease
+Include,,,An Interpretable Deep Learning Optimized Wearable Daily Detection System for Parkinson's Disease
 Include,,,A Comparison among Different Strategies to Detect Potential Unstable Behaviors in Postural Sway
 Include,,,Combating False Data Injection Attacks on Human-Centric Sensing Applications
 Include,,,AccNet24: A deep learning framework for classifying 24-hour activity behaviours from wrist-worn accelerometer data under free-living environments
@@ -12,7 +12,7 @@ Include,,,Hybrid Amplitude Ordinal Partition Networks for ECG Morphology Discrim
 Include,,,Classification of Sleep-Wake State in Ballistocardiogram system based on Deep Learning
 Exclude,Sample size too small,Only four subjects' data were usable.,A Neural Network Estimation of Ankle Torques From Electromyography and Accelerometry
 Include,,,Are Machine Learning Models on Wrist Accelerometry Robust against Differences in Physical Performance among Older Adults?
-Include,,,"An unbiased, efficient sleep–wake detection algorithm for a population with sleep disorders: change point decoder"
+Include,,,"An unbiased, efficient sleep-wake detection algorithm for a population with sleep disorders: change point decoder"
 Include,,,Development of artificial intelligence edge computing based wearable device for fall detection and prevention of elderly people
 Exclude,Sample size too small,The study will recruit 30 individuals with clinically-significant binge eating.,"Using Wearable Passive Sensing to Predict Engagement in Binge Eating in Response to Negative Affect: A Multimethod Investigation of Predictive Utility, Feasibility, and Acceptability"
 Include,,,A CNN Model for Cardiac Arrhythmias Classification Based on Individual ECG Signals
@@ -31,7 +31,7 @@ Include,,,Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate
 Exclude,Not original research,This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.,Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD
 Exclude,Sample size too small,The study aims to recruit 30 patients with T1DM which is below the minimum required sample size of 100 subjects.,Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free- living conditions
 Include,,,Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition
-Include,,,Real-time detection of freezing of gait in Parkinson’s disease using multi-head convolutional neural networks and a single inertial sensor
+Include,,,Real-time detection of freezing of gait in Parkinson's disease using multi-head convolutional neural networks and a single inertial sensor
 Exclude,Sample size too small,"Seventeen individuals with HD (5 female) participated in the gait assessment in the clinic. Ten of these participants (2 female), together with three additional participants (1 female) participated in the free-living study.",Estimation of Gait Parameters in Huntington’s Disease Using Wearable Sensors in the Clinic and Free-living Conditions
 Exclude,Sample size too small,"The study group consisted of 41 STEMI patients and 49 control patients, totaling 90 subjects, and the required minimum is 100 subjects.",Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study
 Include,,,Discrimination of Simultaneous Psychological and Physical Stressors Using Wristband Biosignals
