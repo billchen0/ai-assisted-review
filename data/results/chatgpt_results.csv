@@ -28,13 +28,13 @@ Include,,,A new smart wristband equipped with an artificial intelligence algorit
 Include,,,Deep learning with wearable based heart rate variability for prediction of mental and general health
 Include,,,Robust Feature Selection for BP Estimation in Multiple Populations: Towards Cuffless Ambulatory BP Monitoring
 Include,,,Fusion Learning on Multiple-Tag RFID Measurements for Respiratory Rate Monitoring
-Exclude,Not original research,This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.,Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD
-Exclude,Sample size too small,The study aims to recruit 30 patients with T1DM which is below the minimum required sample size of 100 subjects.,Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free- living conditions
+Exclude,Not original research,This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.,Study Protocol for the Artificial Intelligence-Driven Evaluation of Structural Heart Diseases Using Wearable Electrocardiogram (ID-SHD)
+Exclude,Sample size too small,The study aims to recruit 30 patients with T1DM which is below the minimum required sample size of 100 subjects.,Development of an artificial intelligence system to identify hypoglycaemia via ECG in adults with type 1 diabetes: protocol for data collection under controlled and free-living conditions
 Include,,,Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition
 Include,,,Real-time detection of freezing of gait in Parkinson's disease using multi-head convolutional neural networks and a single inertial sensor
-Exclude,Sample size too small,"Seventeen individuals with HD (5 female) participated in the gait assessment in the clinic. Ten of these participants (2 female), together with three additional participants (1 female) participated in the free-living study.",Estimation of Gait Parameters in Huntington’s Disease Using Wearable Sensors in the Clinic and Free-living Conditions
+Exclude,Sample size too small,"Seventeen individuals with HD (5 female) participated in the gait assessment in the clinic. Ten of these participants (2 female), together with three additional participants (1 female) participated in the free-living study.",Estimation of Gait Parameters in Huntington’s Disease using Wearable Sensors in the Clinic and Free-living Conditions
 Exclude,Sample size too small,"The study group consisted of 41 STEMI patients and 49 control patients, totaling 90 subjects, and the required minimum is 100 subjects.",Mechanocardiography in the Detection of Acute ST Elevation Myocardial Infarction: The MECHANO-STEMI Study
-Include,,,Discrimination of Simultaneous Psychological and Physical Stressors Using Wristband Biosignals
+Include,,,Discrimination of simultaneous psychological and physical stressors using wristband biosignals
 Include,,,Mental stress recognition on the fly using neuroplasticity spiking neural networks
 Include,,,A machine learning approach to determine resilience utilizing wearable device data: analysis of an observational cohort
 Include,,,Exploratory Data Analysis of Human Activity Recognition Based on Smart Phone
